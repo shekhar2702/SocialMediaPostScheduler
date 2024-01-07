@@ -5,4 +5,5 @@
 - The app uses scribejava-core library to perform oAuth and send requests to Twitter's v2 API to create posts.
 - The app is made extensible in the sense that new social media integrations requires minimal efforts.
 - Tech stack used - Java,Spring boot,Message Queue(RabbitMQ),MySQL,Twitter's v2 developer APIs
+- In order to run the application have rabbitmq and mysql server running and just build and run the spring boot application.
 
