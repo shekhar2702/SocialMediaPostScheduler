@@ -19,6 +19,7 @@ public class PostController {
     @PostMapping("/post")
     public Post createPost(@RequestBody Post post) {
         return postService.savePost(post);
+
     }
 
     @GetMapping("/post/{:state}")
